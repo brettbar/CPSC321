@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS test;
+
+CREATE TABLE test (
+	id INT, 
+	val VARCHAR(3),
+	PRIMARY KEY (id)
+) ENGINE=InnoDB;
